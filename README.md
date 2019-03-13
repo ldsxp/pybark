@@ -123,7 +123,7 @@ pip install ilds
 **将p12文件转换为pem证书**
 
 ```sh
-# 提示需要输入密码，输入刚才导出 p12 时的密码
+# 提示需要输入密码，输入导出 p12 时的密码
 openssl pkcs12 -in ApnsCert.p12 -out ApnsCert.pem -nodes
 ```
 
